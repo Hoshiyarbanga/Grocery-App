@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background-image: url(../images/Grocery.webp);
+    background-size: cover;
+}
+/* header start */
+header{
+    background-color: #7ccb9c;
+    height: 60px;
+}
+.logo{
+    float: left;
+    line-height: 60px;
+}
+.logo a {
+    font-size: 34px;
+    font-weight: 500;
+}
+nav a {
+    padding: 18px !important;
+    text-transform: capitalize;
+}
+/* registratidddonForm */
+
+.registration{
+    height: 100vh;
+    background-image: url(../images/Grocery.webp);
+    background-size: cover;
+}
+
+.aaaa{
+    width: 60%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid #686363;
+    padding: 32px;
+    border-radius: 25px;
+    backdrop-filter: blur(45px);
+}
+#detail{
+ 
+    margin-top: 10px;
+    border: 1px solid #686363;
+    padding: 32px;
+    border-radius: 25px;
+    backdrop-filter: blur(45px);
+}
+.abcde{
+    padding: 13px;
+    border-radius: 25px;
+    backdrop-filter: blur(5px);
+
+}
+.submit-btn{
+    width: 100%;
+}
+
+/* banner */
+.banner{
+    height: calc(100vh - 60px);
+   
+   
+}
+
+#products{
+    justify-content: space-between;
+}
+ 
+.invoice {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .invoice-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .invoice-body table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .invoice-body th,
+  .invoice-body td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .invoice-footer {
+    margin-top: 20px;
+  }
+  
